@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="email-field field">       
+                <div class="input-field">
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="Example@email.com" required>
+                </div>     
+                <span class="error email-error">
+                    <p class="error-text">Make sure email is more than 3 characters and has @ and a .</p>
+                </span>    
+            </div>
+            <div class="pw-field field">
+                <div class="input-field">
+                    <label for="password">Password</label><br>
+                    <input type="password" placeholder="Your Password" required>
+                </div>
+                <span class="error pw-error">
+                    <p class="error-text">Make sure password is more than 8 characters.</p>
+                </span>
+            </div>
+            <div class="success-message">
+                <p>All good to go!</p>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
